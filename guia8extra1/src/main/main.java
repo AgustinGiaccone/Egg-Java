@@ -10,6 +10,10 @@ public class main {
         
         raices.pedirValores();
         raices.calcular();
+         System.out.println("==============================");
+        long numeroLargo = 123456789012345L;
+        int numeroEntero = (int) numeroLargo;
+        System.out.println(numeroEntero);
     }
     
 }
