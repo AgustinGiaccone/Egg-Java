@@ -19,7 +19,7 @@ import entidad.Raices;
 import java.util.Scanner;
 
 public class RaicesServicio {
-    Raices rai = new Raices ();
+    Raices rai = new Raices();
     Scanner leer = new Scanner(System.in).useDelimiter("\n");
     public void pedirValores(){
         System.out.println("Ingrese el valor de A");
